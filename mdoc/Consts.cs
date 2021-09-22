@@ -3,7 +3,7 @@ namespace Mono.Documentation
 {
 	public static class Consts
 	{
-		public static string MonoVersion = "5.8.3";
+		public static string MonoVersion = "5.8.4";
 		public const string DocId = "DocId";
 		public const string CppCli = "C++ CLI";
 	    public const string CppCx = "C++ CX";
@@ -22,7 +22,8 @@ namespace Mono.Documentation
 		public const string JavascriptLowCase = "javascript";
 
 		public const string DependencyPropertyFullName = "System.Windows.DependencyProperty";
-        public const string DependencyPropertyFullNameXaml = "Windows.UI.Xaml.DependencyProperty";
+        public const string DependencyPropertyFullNameWindowsXaml = "Windows.UI.Xaml.DependencyProperty";
+        public const string DependencyPropertyFullNameMicrosoftXaml = "Microsoft.UI.Xaml.DependencyProperty";
 
         public const string DependencyObjectFullName = "System.Windows.DependencyObject";
         public const string DependencyObjectFullNameXaml = "Windows.UI.Xaml.DependencyObject";
