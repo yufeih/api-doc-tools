@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2020
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdoc", "mdoc\mdoc.csproj", "{7DA7CD97-614F-4BCD-A2FA-B379590CEA48}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mdoc.Test", "mdoc\mdoc.Test\mdoc.Test.csproj", "{5ADDEFB6-930C-46BC-8B2B-FDE5C7E3B5AD}"
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "mdoc.Test.FSharp", "mdoc\mdoc.Test\mdoc.Test.FSharp\mdoc.Test.FSharp.fsproj", "{979F9F80-12FE-4236-9E93-6D554AB13701}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "apidoc", "apidoc\apidoc.csproj", "{EAC8043B-1EE3-498C-96A9-8C8582927CD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -123,6 +125,22 @@ Global
 		{979F9F80-12FE-4236-9E93-6D554AB13701}.Release|x64.Build.0 = Release|Any CPU
 		{979F9F80-12FE-4236-9E93-6D554AB13701}.Release|x86.ActiveCfg = Release|Any CPU
 		{979F9F80-12FE-4236-9E93-6D554AB13701}.Release|x86.Build.0 = Release|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Debug|ARM.Build.0 = Debug|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Debug|x64.Build.0 = Debug|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Debug|x86.Build.0 = Debug|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Release|ARM.ActiveCfg = Release|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Release|ARM.Build.0 = Release|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Release|x64.ActiveCfg = Release|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Release|x64.Build.0 = Release|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Release|x86.ActiveCfg = Release|Any CPU
+		{EAC8043B-1EE3-498C-96A9-8C8582927CD3}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

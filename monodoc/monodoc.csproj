@@ -705,6 +705,10 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\apidoc\apidoc.csproj">
+      <Project>{eac8043b-1ee3-498c-96a9-8c8582927cd3}</Project>
+      <Name>apidoc</Name>
+    </ProjectReference>
     <ProjectReference Include="..\external\SharpZipLib\ICSharpCode.SharpZipLib.NET45\ICSharpCode.SharpZipLib.csproj">
       <Project>{0e7413ff-eb9e-4714-acf2-be3a6a7b2ffd}</Project>
       <Name>ICSharpCode.SharpZipLib</Name>

@@ -154,6 +154,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\apidoc\apidoc.csproj">
+      <Project>{eac8043b-1ee3-498c-96a9-8c8582927cd3}</Project>
+      <Name>apidoc</Name>
+    </ProjectReference>
     <ProjectReference Include="..\..\monodoc\monodoc.csproj">
       <Project>{6E644802-B579-4037-9809-9CF4C7172C9D}</Project>
       <Name>monodoc</Name>
